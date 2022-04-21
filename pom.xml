@@ -5,10 +5,18 @@
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>my-project</artifactId>
       <version>1.0</version>
-	      <properties>
+      <dependencies>    
+  <dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-lang3</artifactId>
+  <version>3.12.0</version>
+</dependency>
+</dependencies>
+  <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
+
   <build>
     <plugins>
       <plugin>
